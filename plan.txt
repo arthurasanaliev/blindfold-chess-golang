@@ -1,0 +1,21 @@
+Done so far:
+
+    Data Structures:
+    - Board
+    - Player
+
+    Board Data Structure:
+    - Fields:
+        - board [8][8]string
+    - Methods:
+        - NewBoard() -> *Board
+        - Display() -> void
+
+    Player Data Structure:
+    - Fields:
+        - name string
+        - color string
+    - Methods:
+        - NewPlayer(name, color) -> *Player
+        - GetMove() -> (int, int, int, int)
+
