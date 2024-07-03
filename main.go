@@ -1,10 +1,8 @@
 package main
 
-import (
-	"blindfold-chess-golang/game"
-)
+import "blindfold-chess-golang/game"
 
 func main() {
-	board := game.NewBoard()
-	board.Display()
+	game := game.NewGame()
+	game.Start()
 }

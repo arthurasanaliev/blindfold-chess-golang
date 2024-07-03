@@ -10,6 +10,7 @@ Done so far:
     - Methods:
         - NewBoard() -> *Board
         - Display() -> void
+        - ValidMove(xf,yf,xt,yt) -> bool 
 
     Player Data Structure:
     - Fields:
